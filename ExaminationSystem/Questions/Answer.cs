@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExaminationSystem.Question
+namespace ExaminationSystem.Questions
 {
     internal class Answer
     {
+        public int AnswerId { get; set; }
+        public string AnswerText { get; set; }
     }
 }
