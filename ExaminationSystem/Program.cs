@@ -12,6 +12,7 @@ namespace ExaminationSystem
             string subjectName = ValidString.GetValidString("Please Enter the Subject Name: ");
 
             var subject = new Subject(subjectId, subjectName);
+            Console.Clear();
 
             int choice = ValidInt.GetValidInt("Please Enter the Type of Exam (1 for Practical | 2 for Final): ", 1, 2);
 
